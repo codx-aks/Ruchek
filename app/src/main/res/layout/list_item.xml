@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#090909">
+
+    <TextView
+        android:id="@+id/gp"
+        android:layout_width="97dp"
+        android:layout_height="32dp"
+        android:background="#B0ECB158"
+
+        android:fontFamily="@font/courgette"
+        android:text="TextView"
+        android:textAlignment="center"
+
+        android:textColor="#6E0303"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/gn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="137dp"
+        android:layout_height="32dp"
+        android:background="#B0ECB158"
+
+        android:fontFamily="@font/aldrich"
+        android:text="owes you"
+        android:textAlignment="center"
+
+        android:textColor="#024905"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/gp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gn"
+        android:layout_width="158dp"
+        android:layout_height="32dp"
+        android:background="#B0ECB158"
+
+        android:fontFamily="@font/courgette"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".addgroupActivity">
+
+
+    <EditText
+        android:id="@+id/gtitleget"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter group name"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/gpeopleget"
+        android:layout_width="282dp"
+        android:layout_height="47dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter No of people in group"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="233dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="23dp"
+        android:fontFamily="@font/courgette"
+        android:textAlignment="textStart"
+        android:textColor="#B0FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/sback"
+        android:layout_width="89dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="BACK "
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/groupheading"
+        android:layout_width="324dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/courgette"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#B0ECB158"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <EditText
+        android:id="@+id/gname"
+        android:layout_width="225dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter username"
+        android:inputType="text"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/groupheading"
+        app:layout_constraintTop_toBottomOf="@+id/groupheading"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/addp"
+        android:layout_width="133dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/charm_bold"
+        android:text="ADD PEOPLE"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gname" />
+
+    <Button
+        android:id="@+id/groupb"
+        android:layout_width="158dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/aldrich"
+        android:text="ADD MEMBERS"
+        app:layout_constraintStart_toStartOf="@+id/gpeopleget"
+        app:layout_constraintTop_toBottomOf="@+id/gpeopleget"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

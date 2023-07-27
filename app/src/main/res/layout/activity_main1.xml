@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity1" >
+
+    <Button
+        android:id="@+id/thome"
+        android:layout_width="89dp"
+        android:layout_height="43dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="NEXT "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/lsubmit"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="107dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="SUBMIT"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/log"
+        app:layout_constraintVertical_bias="0.789"
+        tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="107dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="SUBMIT"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/log"
+        app:layout_constraintVertical_bias="0.789"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="261dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/text"
+        android:hint="Enter password"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uamount"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/uamount"
+        android:layout_width="261dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/text"
+        android:hint="Enter existing username"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/spwd"
+        android:layout_width="261dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/text"
+        android:hint="Enter password"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sname"
+        app:layout_constraintVertical_bias="0.052"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ek"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/courgette"
+        android:text="ek"
+        android:textColor="#B043A047"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/ch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <TextView
+        android:id="@+id/ch"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/courgette"
+        android:text="Ch"
+        android:textColor="#B0FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ru"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <ImageView
+        android:id="@+id/log"
+        android:layout_width="133dp"
+        android:layout_height="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/ru"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/courgette"
+        android:text="Ru"
+        android:textColor="#B0F4511E"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="107dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="SIGN UP"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/log"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text=" LOG IN"
+
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/signup"
+        app:layout_constraintTop_toBottomOf="@+id/log"
+        app:layout_constraintVertical_bias="0.011"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_width="261dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/text"
+        android:hint="Enter new username"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

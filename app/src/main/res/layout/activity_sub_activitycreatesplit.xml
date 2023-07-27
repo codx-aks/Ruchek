@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/split"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".SubActivitycreatesplit">
+
+    <EditText
+        android:id="@+id/stitleget"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter split title"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/samountget"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter split amount"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/speopleget"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter No of people in split"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="233dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="23dp"
+        android:fontFamily="@font/courgette"
+        android:textAlignment="textStart"
+        android:textColor="#B0FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/sback"
+        android:layout_width="89dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="BACK "
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/splitheading"
+        android:layout_width="324dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/courgette"
+        android:text="Dinner at McDonalds"
+        android:textAlignment="center"
+        android:textColor="#B0ECB158"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <EditText
+        android:id="@+id/splitname"
+        android:layout_width="225dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Enter username"
+        android:inputType="text"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/splitheading"
+        app:layout_constraintTop_toBottomOf="@+id/splitheading"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/addp"
+        android:layout_width="133dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/charm_bold"
+        android:text="ADD PEOPLE"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splitname" />
+
+    <Button
+        android:id="@+id/splitb"
+        android:layout_width="102dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/aldrich"
+        android:text="SPLIT"
+        app:layout_constraintStart_toStartOf="@+id/speopleget"
+        app:layout_constraintTop_toBottomOf="@+id/speopleget"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

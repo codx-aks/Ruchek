@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="thome" type="id" />
+    <item name="lsubmit" type="id" />
+    <item name="log" type="id" />
+    <item name="uname" type="id" />
+    <item name="uamount" type="id" />
+    <item name="signup" type="id" />
+    <item name="spwd" type="id" />
+    <item name="sname" type="id" />
+    <item name="ek" type="id" />
+    <item name="ch" type="id" />
+    <item name="ru" type="id" />
+    <item name="login" type="id" />
+</resources>

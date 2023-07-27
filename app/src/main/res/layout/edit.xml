@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="281dp"
+        android:layout_height="378dp"
+        android:background="#B0ECB158"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/snnew"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/text"
+            android:ems="10"
+            android:fontFamily="@font/aldrich"
+            android:hint="Enter Split name"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/sunew"
+            android:layout_width="215dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/text"
+            android:ems="10"
+            android:fontFamily="@font/aldrich"
+            android:hint="Enter user name"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/snnew"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/sanew"
+            android:layout_width="225dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/text"
+            android:ems="10"
+            android:fontFamily="@font/aldrich"
+            android:hint="Enter Amount/person"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sunew"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="85dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="44dp"
+            android:background="#000000"
+            android:fontFamily="@font/charm_bold"
+            android:text="SUBMIT"
+            android:textAlignment="center"
+            android:textColor="#B0ECB158"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sanew" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

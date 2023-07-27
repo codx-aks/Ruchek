@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivitytransaction">
+
+
+<ImageView
+android:id="@+id/imageView2"
+android:layout_width="36dp"
+android:layout_height="34dp"
+android:layout_marginStart="12dp"
+android:layout_marginTop="16dp"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:srcCompat="@drawable/baseline_account_circle_24" />
+
+<TextView
+android:id="@+id/user"
+android:layout_width="233dp"
+android:layout_height="34dp"
+android:layout_marginStart="23dp"
+android:fontFamily="@font/courgette"
+android:textAlignment="textStart"
+android:textColor="#B0FFFFFF"
+android:textSize="24sp"
+app:layout_constraintStart_toEndOf="@+id/imageView2"
+app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+<ImageView
+android:id="@+id/imageView4"
+android:layout_width="55dp"
+android:layout_height="67dp"
+android:layout_marginEnd="16dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/csplit"
+        android:layout_width="325dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/courgette"
+        android:text=" Add Transaction"
+        android:textColor="#000000"
+        android:textSize="33sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/agroup"
+        android:layout_width="325dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/courgette"
+        android:text="Transaction History"
+        android:textColor="#000000"
+        android:textSize="31sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/csplit" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/csplit"
+        app:layout_constraintEnd_toEndOf="@+id/csplit"
+        app:srcCompat="@drawable/baseline_add_shopping_cart_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/agroup"
+        app:layout_constraintEnd_toEndOf="@+id/agroup"
+        app:srcCompat="@drawable/baseline_history_24" />
+
+    <Button
+        android:id="@+id/thome"
+        android:layout_width="89dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="HOME "
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".SubActivityaddtran">
+
+    <EditText
+        android:id="@+id/tusername"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/text"
+        android:fontFamily="@font/charm_bold"
+        android:hint="Enter Username (To)"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tamount"
+        android:layout_width="156dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/text"
+        android:fontFamily="@font/charm_bold"
+        android:hint="Enter Amount"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tusername" />
+
+    <Button
+        android:id="@+id/addtranb"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/courgette"
+        android:text="Add Transaction"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tamount" />
+
+    <Button
+        android:id="@+id/owesyou"
+        android:layout_width="98dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/aldrich"
+        android:text="owes you"
+        android:textColor="#00500D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tusername"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/settle"
+        android:layout_width="88dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/aldrich"
+        android:text="settle"
+        android:textColor="#800000"
+        app:layout_constraintStart_toEndOf="@+id/owesyou"
+        app:layout_constraintTop_toBottomOf="@+id/tusername"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:text="BACK "
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
